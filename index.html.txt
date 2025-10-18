@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dome Bali - Produk & Layanan</title>
+  <style>
+    body {font-family: 'Poppins', sans-serif; margin:0; padding:0; background:#f5f5f5; color:#333;}
+    header {background:#00796b; color:white; padding:20px; display:flex; justify-content:space-between; align-items:center;}
+    header h1 {margin:0;}
+    nav a {color:white; text-decoration:none; margin-left:20px;}
+    nav a:hover {text-decoration:underline;}
+    .hero {background:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover no-repeat; color:white; text-align:center; padding:100px 20px;}
+    .hero h2 {font-size:2.5em; margin-bottom:10px;}
+    section {padding:60px 10%;}
+    .section-title {text-align:center; color:#00796b; margin-bottom:30px;}
+    .products {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;}
+    .product-card {background:white; border-radius:10px; box-shadow:0 3px 10px rgba(0,0,0,0.1);}
+    .product-card img {width:100%; border-radius:10px 10px 0 0;}
+    .product-card h3 {padding:15px; color:#00796b;}
+    .product-card p {padding:0 15px 20px;}
+    footer {background:#004d40; color:white; text-align:center; padding:20px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dome Bali</h1>
+    <nav>
+      <a href="#about">Tentang</a>
+      <a href="#produk">Produk</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Desain & Produksi Dome Tropis</h2>
+    <p>Solusi arsitektur alami dan estetis dari Bali.</p>
+  </div>
+
+  <section id="about">
+    <h2 class="section-title">Tentang Kami</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      Kami adalah tim profesional dalam desain dan konstruksi struktur dome tropis berbahan alami seperti bambu dan kayu.
+    </p>
+  </section>
+
+  <section id="produk">
+    <h2 class="section-title">Produk & Layanan</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1505691723518-36a0f673d219" alt="Dome Bambu">
+        <h3>Dome Bambu</h3>
+        <p>Bangunan bambu alami dengan desain artistik dan tahan terhadap iklim tropis.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511" alt="Villa Tropis">
+        <h3>Villa Tropis</h3>
+        <p>Desain villa berkonsep terbuka yang menyatu dengan alam dan menggunakan ventilasi alami.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontak" style="text-align:center;">
+    <h2 class="section-title">Hubungi Kami</h2>
+    <p>📞 WhatsApp: <a href="https://wa.me/6281234567890" target="_blank">+62 812-3456-7890</a></p>
+    <p>📧 Email: <a href="mailto:info@domebali.com">info@domebali.com</a></p>
+    <p>📷 Instagram: <a href="https://instagram.com/domebali" target="_blank">@domebali</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Dome Bali. Semua Hak Dilindungi.
+  </footer>
+</body>
+</html>
